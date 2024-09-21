@@ -1,0 +1,9 @@
+# Get the first line of input: size of array and K value
+first_line = input()
+
+# Get the second line of input: elements of the array
+second_line = input()
+
+# Print the input in the same format
+print(first_line)
+print(second_line)
