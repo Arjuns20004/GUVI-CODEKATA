@@ -1,0 +1,8 @@
+# Get input from the user
+input_line = input("Enter integers separated by space: ")
+
+# Split the input string into a list of integers
+integer_list = list(map(int, input_line.split()))
+
+# Print the list of integers separated by space
+print(" ".join(map(str, integer_list)))
